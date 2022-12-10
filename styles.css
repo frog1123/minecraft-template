@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+#bg {
+  width: 100%;
+}
+
+#text-container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  transform: translateY(-50%);
+  z-index: 1000;
+  font-family: 'MinecraftiaRegular';
+}
+
+#text-container * {
+  margin: 0;
+  color: #fff;
+  text-shadow: 8px 8px #2b2b2b;
+}
+
+#text-container #big-text {
+  font-size: 180px;
+}
+
+#text-container #small-text {
+  font-size: 100px;
+}
+
+#art {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  width: 600px;
+  image-rendering: pixelated;
+}
