@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ss": "node scripts/ss.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frog1123/minecraft-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frog1123/minecraft-template/issues"
+  },
+  "homepage": "https://github.com/frog1123/minecraft-template#readme",
+  "dependencies": {
+    "puppeteer": "^19.4.0"
+  }
+}
