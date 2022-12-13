@@ -35,7 +35,8 @@ body {
 #art {
   position: absolute;
   bottom: 0;
-  right: 100px;
+  left: 100px;
   width: 600px;
   image-rendering: pixelated;
+  transform: scaleX(-1);
 }
